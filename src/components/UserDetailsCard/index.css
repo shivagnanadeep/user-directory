@@ -55,3 +55,9 @@
 .icon {
 	color: #666;
 }
+@media screen and (max-width: 576) {
+	.details-container {
+		flex-direction: column;
+		justify-content: space-between;
+	}
+}
