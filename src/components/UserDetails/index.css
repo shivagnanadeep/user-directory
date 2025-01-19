@@ -9,8 +9,10 @@
 	background-color: #f9f4e7;
 }
 .card-container {
-	min-width: 500px;
-	max-width: fit-content;
+	width: fit-content;
+	max-width: 500px;
+	height: fit-content;
+	max-height: 75%;
 	background-color: #ffffff;
 	padding: 20px;
 	border-radius: 10px;
@@ -25,4 +27,22 @@
 	background-color: #0b69ff;
 	border: none;
 	border-radius: 5px;
+}
+@media screen and (max-width: 576) {
+	.card-container {
+		width: fit-content;
+		max-width: 450px;
+		height: fit-content;
+		max-height: 60%;
+	}
+	.go-back-button {
+		align-self: flex-start;
+		padding: 2px 7px;
+		font-size: 10px;
+		font-weight: bold;
+		color: white;
+		background-color: #0b69ff;
+		border: none;
+		border-radius: 3px;
+	}
 }
