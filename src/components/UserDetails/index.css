@@ -34,6 +34,7 @@
 		max-width: 420px;
 		height: fit-content;
 		max-height: 60%;
+		padding: 10px;
 	}
 	.go-back-button {
 		align-self: flex-start;
