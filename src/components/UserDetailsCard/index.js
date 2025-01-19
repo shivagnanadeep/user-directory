@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 
 const UserDetailsCard = (props) => {
 	const { user } = props;
-	console.log(user);
+	// console.log(user);
 	const { id, name, email, address } = user;
 	const { city } = address;
 	return (

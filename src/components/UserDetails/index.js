@@ -28,7 +28,7 @@ class UserDetails extends Component {
 			const response = await fetch(URL, options);
 			if (response.ok) {
 				const data = await response.json();
-				console.log(data);
+				// console.log(data);
 				this.setState({ user: data, status: statusConstants.success });
 			} else {
 				this.setState({ status: statusConstants.failure });

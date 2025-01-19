@@ -34,7 +34,7 @@ class Home extends Component {
 			const response = await fetch(URL, options);
 			if (response.ok) {
 				const data = await response.json();
-				console.log(data);
+				// console.log(data);
 				this.setState({ users: data, status: statusConstants.success });
 			} else {
 				this.setState({ status: statusConstants.failure });
