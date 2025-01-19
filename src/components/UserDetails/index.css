@@ -1,0 +1,28 @@
+.user-details-container {
+	width: 100vw;
+	height: 100vh;
+	font-family: 'roboto';
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: #f9f4e7;
+}
+.card-container {
+	min-width: 500px;
+	max-width: fit-content;
+	background-color: #ffffff;
+	padding: 20px;
+	border-radius: 10px;
+	box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+.go-back-button {
+	align-self: flex-start;
+	padding: 5px 10px;
+	font-size: 15px;
+	font-weight: bold;
+	color: white;
+	background-color: #0b69ff;
+	border: none;
+	border-radius: 5px;
+}

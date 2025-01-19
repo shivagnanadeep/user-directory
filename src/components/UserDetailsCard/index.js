@@ -12,7 +12,7 @@ const UserDetailsCard = (props) => {
 	return (
 		<li className="user-details-card">
 			<Link
-				to={`users/${id}`}
+				to={`/users/${id}`}
 				className="link"
 			>
 				<div className="details-container">

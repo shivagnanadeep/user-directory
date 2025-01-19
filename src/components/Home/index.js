@@ -4,6 +4,7 @@ import UserDetailsCard from '../UserDetailsCard';
 import Loader from 'react-loader-spinner';
 import { FaSearch } from 'react-icons/fa';
 const statusConstants = {
+	initial: 'INITIAL',
 	success: 'SUCCESS',
 	failure: 'FAILURE',
 	loading: 'LOADING',
